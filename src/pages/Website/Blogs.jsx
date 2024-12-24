@@ -126,7 +126,7 @@ export const BlogItem = ({ blog }) => {
         <p className="text-gray-400 text-[.8rem]">12th May 2023</p>
       </div> */}
       <div className="mt-6 w-full flex justify-center">
-        <Link to={`/blogs/${blog.id}`} className="secondary-btn w-full">
+        <Link to={`/blogs/${blog.id}`} className="primary-btn w-full">
           Read More
         </Link>
       </div>

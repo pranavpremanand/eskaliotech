@@ -33,7 +33,7 @@ html {
     @apply max-w-7xl mx-auto px-4 sm:px-6;
   }
   .primary-btn {
-    @apply bg-gradient-to-r rounded-full px-5 text-sm font-medium py-3 from-primary to-primary text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300;
+    @apply bg-gradient-to-r text-center rounded-full px-5 text-sm font-medium py-3 from-primary to-primary text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300;
     /* @apply bg-gradient-to-r rounded-full px-5 text-sm font-medium py-3 from-primary to-secondary text-white hover:-translate-y-1 hover:shadow-xl hover:bg-gradient-to-r hover:from-primary hover:to-primary cursor-pointer transition-all duration-300; */
   }
   .link {

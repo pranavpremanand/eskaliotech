@@ -53,14 +53,14 @@ const BlogDetails = () => {
                 data-aos="fade-up"
                 className="flex justify-between items-center font-light mt-[0.8rem]"
               >
-                <div className="rounded-2xl bg-tertiary text-white font-medium px-3 py-1 text-sm w-fit">
+                <div className="rounded-2xl bg-tertiary font-medium px-3 py-1 text-sm w-fit">
                   By Admin
                 </div>
                 <p className="text-gray-800 text-[.8rem]">12th May 2023</p>
               </div>
               <h4
                 data-aos="fade-up"
-                className="heading-2_1 leading-tight mt-[1rem] pb-[1.5rem]"
+                className="heading-2 leading-tight mt-[1rem] pb-[1.5rem]"
               >
                 {/* {blog.title} */}
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
