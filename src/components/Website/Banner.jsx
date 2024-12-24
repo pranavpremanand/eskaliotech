@@ -35,7 +35,7 @@ const Banner = () => {
           <h1 className="text-[2.5rem] md:text-5xl font-bold leading-tight">
             Where Creativity Meets Cutting-Edge Solutions.
           </h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-700">
             Harness the potential of Artificial Intelligence, Blockchain, and
             Cloud Computing to revolutionize your business. Cortexminds
             Technologies LLP delivers bespoke, advanced technology solutions

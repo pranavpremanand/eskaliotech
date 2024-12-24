@@ -41,7 +41,7 @@ const Banner = ({ page }) => {
             {page === "app-development" &&
               "Synzentech Solutions - Transforming Ideas into Exceptional Apps"}
           </h1>
-          <p className="text-sm text-gray-500">
+          <p className="text-sm text-gray-700">
             {page === "web-development" &&
               "Elevate your online presence with Synzentech Solutions' premium web development services. Combining creativity, innovation, and advanced technology, we deliver custom web solutions designed to captivate users, boost engagement, and drive business growth. Whether it’s dynamic websites, interactive platforms, or robust e-commerce solutions, we craft tailored digital experiences to position your business for success."}
             {page === "app-development" &&
