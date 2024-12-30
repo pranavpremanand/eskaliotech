@@ -39,7 +39,7 @@ const OurServices = () => {
             We provide the best services
           </h1>
           <p data-aos="fade-up" className="text-center max-w-2xl">
-            At Synzentech Solutions, we offer a full range of advanced technology services
+            At Eskaliotech Solutions, we offer a full range of advanced technology services
             designed to empower businesses with scalable, intelligent, and
             secure solutions.
           </p>

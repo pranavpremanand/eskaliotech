@@ -43,7 +43,7 @@ const AboutUs = () => {
               The world’s IT networking company.
             </h2>
             <p className="mt-6">
-              At SynzenTech, we believe that technology is the foundation for
+              At Eskaliotech, we believe that technology is the foundation for
               progress and transformation. Established with a passion for
               innovation, we specialize in delivering world-class IT solutions
               that cater to businesses of all sizes, from budding startups to
@@ -218,7 +218,7 @@ const AboutUs = () => {
         {/* <h1 className="heading mb-6">Who We Are</h1> */}
         <p>
           With a dedicated team of experts proficient in the latest
-          technologies, SynzenTech offers a wide array of services, including
+          technologies, Eskaliotech offers a wide array of services, including
           custom software development, mobile and web app solutions, game
           development, and advanced AI & ML integration. Our capabilities extend
           to cutting-edge fields like blockchain, AR & VR, robotic process
@@ -232,7 +232,7 @@ const AboutUs = () => {
           <br />
           <br />
           We are more than just an IT company; we are your strategic technology
-          partner. SynzenTech is committed to empowering businesses to innovate,
+          partner. Eskaliotech is committed to empowering businesses to innovate,
           grow, and thrive in today’s fast-paced digital world.
         </p>
       </section>

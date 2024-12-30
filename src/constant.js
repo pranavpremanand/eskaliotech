@@ -254,7 +254,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p1.png"),
     designation: "CEO of TechNext Solutions",
     review:
-      "Working with SYNZENTECH was a game-changer for our business. They designed a mobile app that transformed the way we interact with our customers. Since launching the app, our user engagement has increased by 45%, and we've seen a 30% boost in revenue, adding $1.2M to our bottom line in just six months! Their expertise and attention to detail are unmatched.",
+      "Working with Eskaliotech was a game-changer for our business. They designed a mobile app that transformed the way we interact with our customers. Since launching the app, our user engagement has increased by 45%, and we've seen a 30% boost in revenue, adding $1.2M to our bottom line in just six months! Their expertise and attention to detail are unmatched.",
   },
   {
     id: 2,
@@ -262,7 +262,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p2.png"),
     designation: "CTO of FinServ Global",
     review:
-      "Our gaming studio needed a partner that could bring our vision to life, and SYNZENTECH delivered beyond expectations. Their team crafted a visually stunning and engaging game that quickly became a hit in the market. Within three months of launch, we saw $800K in revenue and over 100,000 downloads. Their creativity and technical skills are second to none.",
+      "Our gaming studio needed a partner that could bring our vision to life, and Eskaliotech delivered beyond expectations. Their team crafted a visually stunning and engaging game that quickly became a hit in the market. Within three months of launch, we saw $800K in revenue and over 100,000 downloads. Their creativity and technical skills are second to none.",
   },
   {
     id: 3,
@@ -270,7 +270,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p3.png"),
     designation: "COO of E-Commerce Hub",
     review:
-      "SYNZENTECH helped us migrate our entire infrastructure to the cloud with zero downtime. Not only did we improve our operational efficiency, but we also reduced our IT expenses by 35%, saving over $250,000 annually. Their support and expertise have made scaling our business a breeze. We couldn’t have done it without them.",
+      "Eskaliotech helped us migrate our entire infrastructure to the cloud with zero downtime. Not only did we improve our operational efficiency, but we also reduced our IT expenses by 35%, saving over $250,000 annually. Their support and expertise have made scaling our business a breeze. We couldn’t have done it without them.",
   },
   {
     id: 4,
@@ -278,7 +278,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p4.png"),
     designation: "IT Director at Global Enterprises",
     review:
-      "We partnered with SYNZENTECH to develop an AI-powered recommendation engine for our e-commerce platform. The results have been phenomenal! Our conversion rates increased by 28%, and we’ve generated an additional $500K in monthly revenue. Their team’s ability to understand our needs and deliver results exceeded our expectations.",
+      "We partnered with Eskaliotech to develop an AI-powered recommendation engine for our e-commerce platform. The results have been phenomenal! Our conversion rates increased by 28%, and we’ve generated an additional $500K in monthly revenue. Their team’s ability to understand our needs and deliver results exceeded our expectations.",
   },
   {
     id: 5,
@@ -286,7 +286,7 @@ export const testimonials = [
     img: require("./assets/images/testimonials/review-p5.png"),
     designation: "HR Director at HealthCare Innovators",
     review:
-      "SYNZENTECH automated several key processes in our operations, cutting our manual workload by 60%. This efficiency has allowed us to save over $300,000 annually in operational costs. Their RPA solutions have not only streamlined our workflow but also improved accuracy across the board. We highly recommend their services!",
+      "Eskaliotech automated several key processes in our operations, cutting our manual workload by 60%. This efficiency has allowed us to save over $300,000 annually in operational costs. Their RPA solutions have not only streamlined our workflow but also improved accuracy across the board. We highly recommend their services!",
   },
 ];
 
@@ -409,16 +409,11 @@ export const appPortfolio = [
   {
     id: 3,
     img: require("./assets/images/app_projects/3.webp"),
-    title: "Glowsy",
+    title: "Artisan Express",
   },
   {
     id: 4,
     img: require("./assets/images/app_projects/4.webp"),
-    title: "Artisan Express",
-  },
-  {
-    id: 5,
-    img: require("./assets/images/app_projects/5.webp"),
     title: "House of Deliverance",
   },
 ];
@@ -434,7 +429,7 @@ export const servicesList = [
       "Building websites using code, design, and content for user-friendly online experiences.",
     intro: {
       description:
-        "At Synzentech Solutions, we believe that web development goes beyond just creating websites. It's about crafting dynamic, interactive experiences that drive business success and engage users. As leaders in tech innovation, we use the latest advancements in web development to deliver exceptional results that help businesses thrive in today's digital world.",
+        "At Eskaliotech Solutions, we believe that web development goes beyond just creating websites. It's about crafting dynamic, interactive experiences that drive business success and engage users. As leaders in tech innovation, we use the latest advancements in web development to deliver exceptional results that help businesses thrive in today's digital world.",
     },
     approach: {
       title: "Our Approach to Web Development",
@@ -460,7 +455,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "At Synzentech Solutions, we see a future where technology breaks barriers and opens new avenues for businesses. Our commitment to innovation drives us to explore emerging technologies and methodologies that shape the future of web solutions. With a dedicated team focused on excellence, we strive to deliver customized web development services that not only meet but exceed our clients' expectations, setting them up for long-term success in the digital world.",
+        "At Eskaliotech Solutions, we see a future where technology breaks barriers and opens new avenues for businesses. Our commitment to innovation drives us to explore emerging technologies and methodologies that shape the future of web solutions. With a dedicated team focused on excellence, we strive to deliver customized web development services that not only meet but exceed our clients' expectations, setting them up for long-term success in the digital world.",
     },
   },
   {
@@ -472,7 +467,7 @@ export const servicesList = [
       "Creating mobile applications using code, design, and user-centered features.",
     intro: {
       description:
-        "At Synzentech Solutions, we design and develop mobile applications that are intuitive, fast, and secure. We specialize in delivering high-performance applications for iOS and Android, ensuring that your business reaches its audience with a seamless user experience.",
+        "At Eskaliotech Solutions, we design and develop mobile applications that are intuitive, fast, and secure. We specialize in delivering high-performance applications for iOS and Android, ensuring that your business reaches its audience with a seamless user experience.",
     },
     approach: {
       title: "Our Approach to App Development",
@@ -498,7 +493,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "With our expert team and industry-leading tools, Synzentech Solutions ensures that your mobile app not only meets but exceeds expectations. We focus on delivering applications that are scalable, secure, and ready for the ever-evolving digital world.",
+        "With our expert team and industry-leading tools, Eskaliotech Solutions ensures that your mobile app not only meets but exceeds expectations. We focus on delivering applications that are scalable, secure, and ready for the ever-evolving digital world.",
     },
   },
   {
@@ -510,7 +505,7 @@ export const servicesList = [
       "Creating engaging and immersive gaming experiences across multiple platforms.",
     intro: {
       description:
-        "At Synzentech Solutions, we combine creativity with technical expertise to develop engaging games that captivate players. Our game development services cover everything from concept to deployment, ensuring high-quality gaming experiences across various platforms.",
+        "At Eskaliotech Solutions, we combine creativity with technical expertise to develop engaging games that captivate players. Our game development services cover everything from concept to deployment, ensuring high-quality gaming experiences across various platforms.",
     },
     approach: {
       title: "Our Approach to Game Development",
@@ -536,7 +531,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "Synzentech Solutions is committed to creating innovative and entertaining games that push the boundaries of what's possible in interactive entertainment, delivering memorable experiences that keep players coming back for more.",
+        "Eskaliotech Solutions is committed to creating innovative and entertaining games that push the boundaries of what's possible in interactive entertainment, delivering memorable experiences that keep players coming back for more.",
     },
   },
   {
@@ -574,7 +569,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "Synzentech Solutions empowers businesses with robust cloud computing solutions that drive digital transformation, enhance operational efficiency, and provide the foundation for future growth.",
+        "Eskaliotech Solutions empowers businesses with robust cloud computing solutions that drive digital transformation, enhance operational efficiency, and provide the foundation for future growth.",
     },
   },
   {
@@ -612,7 +607,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "Synzentech Solutions drives innovation through AI and ML development, helping businesses harness the power of intelligent technologies to achieve their strategic objectives.",
+        "Eskaliotech Solutions drives innovation through AI and ML development, helping businesses harness the power of intelligent technologies to achieve their strategic objectives.",
     },
   },
   {
@@ -650,7 +645,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "Synzentech Solutions delivers RPA solutions that drive operational efficiency, reduce costs, and improve accuracy across business processes.",
+        "Eskaliotech Solutions delivers RPA solutions that drive operational efficiency, reduce costs, and improve accuracy across business processes.",
     },
   },
   {
@@ -688,7 +683,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "Synzentech Solutions leads the way in AR and VR development, creating immersive experiences that drive engagement and deliver value across various industries.",
+        "Eskaliotech Solutions leads the way in AR and VR development, creating immersive experiences that drive engagement and deliver value across various industries.",
     },
   },
   {
@@ -726,7 +721,7 @@ export const servicesList = [
     ],
     conclusion: {
       description:
-        "Synzentech Solutions provides expert IT consulting services that help businesses navigate the complex technology landscape and make informed decisions that drive success.",
+        "Eskaliotech Solutions provides expert IT consulting services that help businesses navigate the complex technology landscape and make informed decisions that drive success.",
     },
   },
 ];

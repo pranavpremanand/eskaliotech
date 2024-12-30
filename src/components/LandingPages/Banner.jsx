@@ -37,15 +37,15 @@ const Banner = ({ page }) => {
           </p>
           <h1 className="text-[2.5rem] md:text-5xl font-bold leading-tight">
             {page === "web-development" &&
-              "Synzentech Solutions - Shaping the Future with Innovative Web Solutions"}
+              "Eskaliotech Solutions - Shaping the Future with Innovative Web Solutions"}
             {page === "app-development" &&
-              "Synzentech Solutions - Transforming Ideas into Exceptional Apps"}
+              "Eskaliotech Solutions - Transforming Ideas into Exceptional Apps"}
           </h1>
           <p className="text-sm text-gray-700">
             {page === "web-development" &&
-              "Elevate your online presence with Synzentech Solutions' premium web development services. Combining creativity, innovation, and advanced technology, we deliver custom web solutions designed to captivate users, boost engagement, and drive business growth. Whether it’s dynamic websites, interactive platforms, or robust e-commerce solutions, we craft tailored digital experiences to position your business for success."}
+              "Elevate your online presence with Eskaliotech Solutions' premium web development services. Combining creativity, innovation, and advanced technology, we deliver custom web solutions designed to captivate users, boost engagement, and drive business growth. Whether it’s dynamic websites, interactive platforms, or robust e-commerce solutions, we craft tailored digital experiences to position your business for success."}
             {page === "app-development" &&
-              "Connect with your audience anytime, anywhere with cutting-edge app development from Synzentech Solutions. We specialize in building custom mobile and web applications that deliver seamless user experiences, boost engagement, and drive business growth. With intuitive designs and robust functionalities, our tailored app solutions empower your business to thrive in the digital era and stay ahead of the competition."}
+              "Connect with your audience anytime, anywhere with cutting-edge app development from Eskaliotech Solutions. We specialize in building custom mobile and web applications that deliver seamless user experiences, boost engagement, and drive business growth. With intuitive designs and robust functionalities, our tailored app solutions empower your business to thrive in the digital era and stay ahead of the competition."}
           </p>
           <Link to="contact" offset={-80} smooth className="primary-btn mt-10">
             Get Started

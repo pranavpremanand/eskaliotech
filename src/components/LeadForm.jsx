@@ -34,7 +34,7 @@ const LeadForm = () => {
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
-      subject: "You have a new message from Synzentech Solutions",
+      subject: "You have a new message from Eskaliotech Solutions",
       body: emailBody,
     };
 

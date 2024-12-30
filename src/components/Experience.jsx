@@ -64,7 +64,7 @@ const Experience = () => {
               alt="projects-icon"
               className="h-[3rem] object-contain"
             />
-            <h2 className="text-4xl font-bold">5+</h2>
+            <h2 className="text-4xl font-bold">2+</h2>
             <p className="border-l-2 border-[#00CDFF] pl-3">Awards</p>
           </div>
         </div>

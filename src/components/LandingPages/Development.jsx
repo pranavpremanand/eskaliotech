@@ -24,7 +24,7 @@ const Development = ({ page }) => {
           />
           <div data-aos="fade-left" className="flex flex-col gap-4">
             <h2 className="text-[2rem] md:text-4xl leading-tight font-semibold">
-              Synzentech Solutions – Delivering Exceptional User Experiences
+              Eskaliotech Solutions – Delivering Exceptional User Experiences
             </h2>
             <p className="">
               {page === "web-development" &&

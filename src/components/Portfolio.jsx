@@ -22,7 +22,8 @@ const Portfolio = ({ page }) => {
                 className="flex flex-col gap-3 rounded-md overflow-hidden relative group w-full"
               >
                 <img
-loading="lazy"                  src={item.img}
+                  loading="lazy"
+                  src={item.img}
                   alt=""
                   className="w-fit h-fit object-contain group-hover:scale-110 transition-all duration-300"
                 />

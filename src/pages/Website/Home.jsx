@@ -26,9 +26,9 @@ const Banner = React.lazy(() => import("../../components/Website/Banner"));
 const localBusinessSchema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Synzentech Solutions",
+  name: "Eskaliotech Solutions",
   description:
-    "Synzentech Solutions is a globally recognized leader in delivering cutting-edge technology solutions including AI, Machine Learning, Blockchain, and Cloud Computing.",
+    "Eskaliotech Solutions is a globally recognized leader in delivering cutting-edge technology solutions including AI, Machine Learning, Blockchain, and Cloud Computing.",
   image: companyDetails.logo,
   address: {
     "@type": "PostalAddress",
@@ -45,11 +45,11 @@ const Home = () => {
     <>
       <Helmet>
         <title>
-          Synzentech Solutions - Your Partner in AI & Technology Solutions
+          Eskaliotech Solutions - Your Partner in AI & Technology Solutions
         </title>
         <meta
           name="description"
-          content="Discover Synzentech Solutions, your trusted partner for AI, Machine Learning, Blockchain, and custom software development. Transform your business with our innovative technology solutions."
+          content="Discover Eskaliotech Solutions, your trusted partner for AI, Machine Learning, Blockchain, and custom software development. Transform your business with our innovative technology solutions."
         />
         <meta
           name="keywords"
@@ -59,11 +59,11 @@ const Home = () => {
         {/* Open Graph Tags */}
         <meta
           property="og:title"
-          content="Synzentech Solutions - Your Partner in AI & Technology Solutions"
+          content="Eskaliotech Solutions - Your Partner in AI & Technology Solutions"
         />
         <meta
           property="og:description"
-          content="Transform your business with innovative AI, Machine Learning, and Blockchain solutions from Synzentech Solutions."
+          content="Transform your business with innovative AI, Machine Learning, and Blockchain solutions from Eskaliotech Solutions."
         />
         <meta property="og:image" content={aboutImg} />
 
@@ -71,7 +71,7 @@ const Home = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Synzentech Solutions - Your Partner in AI & Technology Solutions"
+          content="Eskaliotech Solutions - Your Partner in AI & Technology Solutions"
         />
         <meta
           name="twitter:description"
@@ -108,7 +108,7 @@ const Home = () => {
                   src={whoWeAre}
                   width="500"
                   height="400"
-                  alt="Synzentech Solutions company overview"
+                  alt="Eskaliotech Solutions company overview"
                   className="rounded-lg h-[20rem] md:h-full md:max-h-[25rem] w-full object-cover object-right"
                 />
                 <div className="w-full sm:w-fit sm:max-w-[18rem] text-white h-full sm:h-fit absolute md:-bottom-[5rem] bottom-0 left-0 bg-secondary/70 sm:bg-secondary p-5 rounded-lg">
@@ -124,11 +124,11 @@ const Home = () => {
               </div>
               <div data-aos="fade-right" className="flex flex-col gap-5">
                 <h2 className="heading-2">
-                  Welcome to Synzentech Solutions – Empowering Innovation
+                  Welcome to Eskaliotech Solutions – Empowering Innovation
                   Through Technology
                 </h2>
                 <p>
-                  At SynzenTech, we believe that technology is the foundation
+                  At Eskaliotech, we believe that technology is the foundation
                   for progress and transformation. Established with a passion
                   for innovation, we specialize in delivering world-class IT
                   solutions that cater to businesses of all sizes, from budding
@@ -162,7 +162,7 @@ const Home = () => {
                 What We Offer
               </h1>
               <p data-aos="fade-up" className="text-center max-w-2xl">
-                At Synzentech Solutions, we offer a full range of advanced
+                At Eskaliotech Solutions, we offer a full range of advanced
                 technology services designed to empower businesses with
                 scalable, intelligent, and secure solutions.
               </p>
