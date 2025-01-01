@@ -9,7 +9,7 @@ import BrandLogos from "../../components/BrandLogos";
 import Footer from "../../components/Footer";
 import LeadForm from "../../components/LeadForm";
 import WhatsAppIcon from "../../components/WhatsAppIcon";
-import { industriesCompanyServe } from "../../constant";
+import { industriesCompanyServe } from "../../data/constant";
 import WorkFlow from "../../components/WorkFlow";
 import InquiryForm from "../../components/InquiryForm";
 import Portfolio from "../../components/Portfolio";

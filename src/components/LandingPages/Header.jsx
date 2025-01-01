@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/images/logo/logo1.png";
-import { landingPageNavLinks } from "../../constant";
+import { landingPageNavLinks } from "../../data/constant";
 import { Link as ReactScrollLink } from "react-scroll";
 import Drawer from "react-modern-drawer";
 import { Divide as Hamburger } from "hamburger-react";

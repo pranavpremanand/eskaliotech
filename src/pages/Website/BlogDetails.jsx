@@ -1,23 +1,24 @@
 import React from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
-import { BlogItem, blogs } from "./Blogs";
+import { BlogItem } from "./Blogs";
 import Header from "../../components/Website/Header";
 import Footer from "../../components/Footer";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import line from "../../assets/images/line.png";
 import bannerImg from "../../assets/images/blogs-banner.webp";
+import { blogs } from "../../data/blogs";
 
 const BlogDetails = () => {
-  const { id } = useParams();
-  const blog = blogs.find((item) => item.id === Number(id));
+  const { title } = useParams();
+  const blog = blogs.find((item) => item.title === title);
   if (!blog) {
     return <Navigate to="/blogs" />;
   }
-  const latestBlogs = blogs.filter((item) => item.id !== Number(id)) || [];
+  const latestBlogs = blogs.filter((item) => item.id !== blog.id) || [];
   return (
     <>
       <Header />
-      <div className="min-h-[45vh] md:min-h-[70vh] w-full page-banner relative">
+      <div className="min-h-[45vh] md:min-h-[70vh] w-full relative">
         <img
           loading="lazy"
           src={bannerImg}
@@ -39,7 +40,7 @@ const BlogDetails = () => {
           </div>
         </div>
       </div>
-      <div className="bg-tertiary/5 relative text-primary_text">
+      <div className="bg-secondary/5 relative text-primary_text">
         <div className="wrapper py-[5rem] relative z-10">
           <div className="flex flex-col gap-2 pb-[3rem] p-3 sm:p-5 bg-secondary/10 rounded-xl mb-[3rem]">
             <img
@@ -53,48 +54,21 @@ const BlogDetails = () => {
                 data-aos="fade-up"
                 className="flex justify-between items-center font-light mt-[0.8rem]"
               >
-                <div className="rounded-2xl bg-tertiary font-medium px-3 py-1 text-sm w-fit">
+                <div className="rounded-2xl bg-secondary text-white font-medium px-3 py-1 text-sm w-fit">
                   By Admin
                 </div>
-                <p className="text-gray-800 text-[.8rem]">12th May 2023</p>
               </div>
               <h4
                 data-aos="fade-up"
-                className="heading-2 leading-tight mt-[1rem] pb-[1.5rem]"
+                className="heading leading-tight mt-[1rem] pb-[1.5rem]"
               >
-                {/* {blog.title} */}
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                iure neque nihil
+                {blog.title}
               </h4>
-              {/* <div
-                dangerouslySetInnerHTML={{ __html: blog.content }}
+              <div
+                dangerouslySetInnerHTML={{ __html: blog.html }}
                 data-aos="fade-up"
                 className="hyphen-auto leading-relaxed text-gray-800 border-t border-primary/30 pt-[2rem]"
-              ></div> */}
-              <p
-                data-aos="fade-up"
-                className="desc hyphen-auto leading-relaxed text-gray-800"
-              >
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, porro excepturi et eos corrupti magnam vel voluptatibus
-                aperiam atque voluptatum dolor ullam alias similique hic aliquam
-                provident minima cumque doloremque! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quaerat, porro excepturi et eos
-                corrupti magnam vel voluptatibus aperiam atque voluptatum dolor
-                ullam alias similique hic aliquam provident minima cumque
-                doloremque! Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Quaerat, porro excepturi et eos corrupti magnam vel
-                voluptatibus aperiam atque voluptatum dolor ullam alias
-                similique hic aliquam provident minima cumque doloremque! Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-                porro excepturi et eos corrupti magnam vel voluptatibus aperiam
-                atque voluptatum dolor ullam alias similique hic aliquam
-                provident minima cumque doloremque! Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quaerat, porro excepturi et eos
-                corrupti magnam vel voluptatibus aperiam atque voluptatum dolor
-                ullam alias similique hic aliquam provident minima cumque
-                doloremque!
-              </p>
+              ></div>
             </div>
           </div>
           {latestBlogs.length > 0 && (
@@ -105,7 +79,7 @@ const BlogDetails = () => {
                   alt="Decorative line"
                   className="w-[3rem]"
                 />
-                <h2 className="font-medium text-secondary">Recent Blogs</h2>
+                <h2 className="font-medium text-secondary">Latest Blogs</h2>
               </div>
               <div className="mt-[1.5rem] grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-7">
                 {blogs

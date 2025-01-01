@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import testiImg from "../assets/images/testimonials/testimonials-bg.png";
 import line from "../assets/images/line.png";
 import users from "../assets/images/users-grp.png";
-import { testimonials } from "../constant";
+import { testimonials } from "../data/constant";
 import gsap from "gsap";
 
 const Testimonials = () => {

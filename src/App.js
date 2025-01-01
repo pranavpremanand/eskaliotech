@@ -16,7 +16,7 @@ const AboutUs = React.lazy(() => import("./pages/Website/AboutUs"));
 const OurServices = React.lazy(() => import("./pages/Website/OurServices"));
 const ServicePageLayout = React.lazy(() =>
   import("./components/Website/ServicePageLayout")
-)
+);
 const ContactUs = React.lazy(() => import("./pages/Website/ContactUs"));
 const ServiceDetails = React.lazy(() =>
   import("./pages/Website/ServiceDetails")
@@ -24,7 +24,7 @@ const ServiceDetails = React.lazy(() =>
 const LandingPage = React.lazy(() => import("./pages/LandingPage/LandingPage"));
 const Blogs = React.lazy(() => import("./pages/Website/Blogs"));
 const BlogDetails = React.lazy(() => import("./pages/Website/BlogDetails"));
-
+const Thankyou = React.lazy(() => import("./pages/Thankyou"));
 
 AOS.init({
   once: true,
@@ -56,7 +56,8 @@ function App() {
             <Route path="/services" element={<OurServices />} />
             <Route path="/contact" element={<ContactUs />} />
             <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/:id" element={<BlogDetails />} />
+            <Route path="/blogs/:title" element={<BlogDetails />} />
+            <Route path="/thank-you" element={<Thankyou />} />
 
             {/* Services Detail Routes with Layout */}
             <Route path="/services" element={<ServicePageLayout />}>

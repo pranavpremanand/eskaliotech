@@ -4,7 +4,7 @@ import {
   appDevelopmentWorkflow,
   generalDevelopmentWorkflow,
   webDevelopmentWorkflow,
-} from "../constant";
+} from "../data/constant";
 
 const WorkFlow = ({ page }) => {
   let workflow;

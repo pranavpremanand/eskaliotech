@@ -1,6 +1,6 @@
 import React from "react";
 import line from "../../assets/images/line.png";
-import { appDevelopmentServices, webDevelopmentServices } from "../../constant";
+import { appDevelopmentServices, webDevelopmentServices } from "../../data/constant";
 
 const Services = ({ page }) => {
   return (

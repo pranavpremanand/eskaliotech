@@ -4,7 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import Drawer from "react-modern-drawer";
 import { Divide as Hamburger } from "hamburger-react";
 import { IoMdClose } from "react-icons/io";
-import { websitePagesLinks } from "../../constant";
+import { websitePagesLinks } from "../../data/constant";
 
 const Header = () => {
   const [isOpen, setIsOpen] = React.useState(false);

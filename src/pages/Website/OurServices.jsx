@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../../components/Website/Header";
 import banner from "../../assets/images/our-services-banner.webp";
-import { servicesList } from "../../constant";
+import { servicesList } from "../../data/constant";
 import line from "../../assets/images/line.png";
 import ServiceItemCard from "../../components/Website/ServiceItemCard";
 import Footer from "../../components/Footer";

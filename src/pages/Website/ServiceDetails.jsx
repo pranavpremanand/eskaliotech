@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Navigate, useParams } from "react-router-dom";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
-import { servicesList } from "../../constant";
+import { servicesList } from "../../data/constant";
 
 const ServiceDetails = () => {
   const { serviceName } = useParams();

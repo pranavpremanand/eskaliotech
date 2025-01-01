@@ -11,7 +11,7 @@ import {
   FaLinkedin,
   FaTwitter,
 } from "react-icons/fa";
-import { companyDetails, servicesList } from "../constant";
+import { companyDetails, servicesList } from "../data/constant";
 
 const Footer = () => {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { companyDetails } from "../constant";
+import { companyDetails } from "../data/constant";
 import { FaWhatsapp } from "react-icons/fa";
 
 const WhatsAppIcon = () => {

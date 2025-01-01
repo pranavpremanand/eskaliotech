@@ -1,5 +1,5 @@
 import React from "react";
-import { appPortfolio, webPortfolio } from "../constant";
+import { appPortfolio, webPortfolio } from "../data/constant";
 import line from "../assets/images/line.png";
 
 const Portfolio = ({ page }) => {

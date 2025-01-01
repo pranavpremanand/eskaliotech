@@ -11,7 +11,7 @@ import {
   companyDetails,
   industriesCompanyServe,
   servicesList,
-} from "../../constant";
+} from "../../data/constant";
 import aboutImg from "../../assets/images/home-aboutus.webp";
 import whoWeAre from "../../assets/images/who-we-are.webp";
 import ServiceItemCard from "../../components/Website/ServiceItemCard";

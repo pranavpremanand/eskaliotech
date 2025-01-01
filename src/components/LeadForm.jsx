@@ -1,12 +1,14 @@
 import React, { useContext } from "react";
 import img from "../assets/images/contact.webp";
 import { useForm } from "react-hook-form";
-import { companyDetails } from "../constant";
+import { companyDetails } from "../data/constant";
 import toast from "react-hot-toast";
 import { SpinnerContext } from "./SpinnerContext";
+import { useNavigate } from "react-router-dom";
 
 const LeadForm = () => {
   const { setSpinner } = useContext(SpinnerContext);
+  const navigate = useNavigate()
   const {
     register,
     handleSubmit,
@@ -49,6 +51,7 @@ const LeadForm = () => {
       .then(() => {
         toast.success("Email sent successfully");
         reset();
+        navigate("/thank-you")
       })
       .catch((error) => {
         toast.error(error.message);

@@ -1,7 +1,7 @@
 import React from "react";
 import ServiceDetailsBanner from "./ServiceDetailsBanner";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { companyDetails, servicesList } from "../../constant";
+import { companyDetails, servicesList } from "../../data/constant";
 import { FaPhoneAlt } from "react-icons/fa";
 import Footer from "../Footer";
 import { PiCaretDoubleRightBold } from "react-icons/pi";

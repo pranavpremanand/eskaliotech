@@ -10,7 +10,7 @@ import {
   PiMapPinAreaLight,
   PiPhoneCallLight,
 } from "react-icons/pi";
-import { companyDetails } from "../../constant";
+import { companyDetails } from "../../data/constant";
 import MapComponent from "../../components/Website/MapComponent";
 import InquiryForm from "../../components/InquiryForm";
 
