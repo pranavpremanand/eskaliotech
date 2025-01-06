@@ -7,6 +7,10 @@ export const companyDetails = {
   email: "contactus@eskaliotech.com",
   location:
     "Office number 309, Ambadeep building- 3rd floor, Kg marg Connaugt Place, Delhi 110001, India",
+  twitter: "https://x.com/ESKALIOTECH",
+  linkedin: "https://www.linkedin.com/company/eskaliotech/",
+  instagram: "https://www.instagram.com/eskaliotech?igsh=aWZsdnA1YzZnOXBx",
+  facebook: "https://www.facebook.com/share/19m3LDU3Me/",
 };
 
 export const landingPageNavLinks = [
