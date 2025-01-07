@@ -3,8 +3,14 @@ import { appPortfolio, webPortfolio } from "../data/constant";
 import line from "../assets/images/line.png";
 
 const Portfolio = ({ page }) => {
-  const isWebDevelopment = Boolean(page === "web-development");
-  let portfolio = isWebDevelopment ? webPortfolio : appPortfolio;
+  let portfolio;
+  if (page === "web-development") {
+    portfolio = webPortfolio;
+  } else if (page === "app-development") {
+    portfolio = appPortfolio;
+  } else {
+    portfolio = webPortfolio.concat(appPortfolio);
+  }
   return (
     <div id="portfolio" className="py-[5rem]">
       <div className="wrapper">
@@ -18,7 +24,7 @@ const Portfolio = ({ page }) => {
             {portfolio.map((item) => (
               <div
                 data-aos="fade-up"
-                key={item.id}
+                key={item.title}
                 className="flex flex-col gap-3 rounded-md overflow-hidden relative group w-full"
               >
                 <img

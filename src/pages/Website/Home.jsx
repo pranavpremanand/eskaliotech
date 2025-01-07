@@ -17,6 +17,7 @@ import whoWeAre from "../../assets/images/who-we-are.webp";
 import ServiceItemCard from "../../components/Website/ServiceItemCard";
 import { Link } from "react-router-dom";
 import WorkFlow from "../../components/WorkFlow";
+import Portfolio from "../../components/Portfolio";
 
 // Lazy load components for better performance
 const Header = React.lazy(() => import("../../components/Website/Header"));
@@ -216,6 +217,7 @@ const Home = () => {
             </div>
 
             <WorkFlow />
+            <Portfolio />
           </section>
 
           <Experience />

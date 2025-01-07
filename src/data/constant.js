@@ -3,7 +3,7 @@ import logoImg from "../assets/images/logo/logo1.png";
 // details
 export const companyDetails = {
   logo: logoImg,
-  phone: "+919716182613",
+  phone: "+917077770975",
   email: "contactus@eskaliotech.com",
   location:
     "Office number 309, Ambadeep building- 3rd floor, Kg marg Connaugt Place, Delhi 110001, India",
