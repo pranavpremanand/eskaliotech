@@ -55,16 +55,21 @@ export const websitePagesLinks = [
   },
   {
     id: 3,
+    link: "/portfolio",
+    label: "Portfolio",
+  },
+  {
+    id: 4,
     link: "/services",
     label: "Services",
   },
   {
-    id: 4,
+    id: 5,
     link: "/blogs",
     label: "Blogs",
   },
   {
-    id: 5,
+    id: 6,
     link: "/contact",
     label: "Contact Us",
   },

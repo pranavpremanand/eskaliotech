@@ -18,6 +18,7 @@ const ServicePageLayout = React.lazy(() =>
   import("./components/Website/ServicePageLayout")
 );
 const ContactUs = React.lazy(() => import("./pages/Website/ContactUs"));
+const PortfolioPage = React.lazy(() => import("./pages/Website/PortfolioPage"));
 const ServiceDetails = React.lazy(() =>
   import("./pages/Website/ServiceDetails")
 );
@@ -55,6 +56,7 @@ function App() {
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<OurServices />} />
             <Route path="/contact" element={<ContactUs />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/blogs" element={<Blogs />} />
             <Route path="/blogs/:title" element={<BlogDetails />} />
             <Route path="/thank-you" element={<Thankyou />} />
