@@ -25,13 +25,13 @@ const Portfolio = ({ page }) => {
               <div
                 data-aos="fade-up"
                 key={item.title}
-                className="flex flex-col gap-3 rounded-md overflow-hidden relative group w-full"
+                className="rounded-md overflow-hidden relative group w-full aspect-square"
               >
                 <img
                   loading="lazy"
                   src={item.img}
                   alt=""
-                  className="w-fit h-fit object-contain group-hover:scale-110 transition-all duration-300"
+                  className="w-full h-full object-cover group-hover:scale-110 transition-all duration-300"
                 />
                 <div className="absolute bottom-0 left-0 w-full p-2 bg-primary/80 text-white flex flex-col gap-2">
                   <h3 className="font-medium text-center">{item.title}</h3>
