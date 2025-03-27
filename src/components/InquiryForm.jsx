@@ -30,16 +30,74 @@ const InquiryForm = () => {
   const handleFormSubmit = async (values) => {
     setSpinner(true);
 
-    var emailBody = "Name: " + values.name + "\n\n";
-    emailBody += "Email: " + values.email + "\n\n";
-    emailBody += "Phone: " + values.phone + "\n\n";
-    emailBody += "Message:\n" + values.message;
+    // var emailBody = "Name: " + values.name + "\n\n";
+    // emailBody += "Email: " + values.email + "\n\n";
+    // emailBody += "Phone: " + values.phone + "\n\n";
+    // emailBody += "Message:\n" + values.message;
+    const emailBody = `
+    <div style="font-family: 'Arial', sans-serif; max-width: 600px; margin: 0 auto; border: 1px solid #e1e1e1; border-radius: 8px; overflow: hidden;">
+  <!-- Header with Logo -->
+  <div style="background-color: #4a6baf; padding: 20px; text-align: center;">
+    <img src="https://eskaliotech.com/static/media/logo1.9e68347e162ff91ad437.png" alt="Logo" style="max-height: 60px;">
+    <h1 style="color: white; margin: 10px 0 0 0;">New Contact Form Submission</h1>
+  </div>
+
+  <!-- Content -->
+  <div style="padding: 25px; background-color: #f9f9f9;">
+    <div style="background-color: white; border-radius: 6px; padding: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+      <h2 style="color: #2c3e50; margin-top: 0;">Contact Details</h2>
+      
+      <div style="margin-bottom: 15px;">
+        <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Name:</strong> ${
+          values.name
+        }</p>
+        <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Email:</strong> <a href="mailto:${
+          values.email
+        }" style="color: #4a6baf; text-decoration: none;">${
+      values.email
+    }</a></p>
+        <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Subject:</strong> ${
+          values.subject
+        }</p>
+      </div>
+
+      <div style="margin: 25px 0;">
+        <h3 style="color: #2c3e50; border-bottom: 1px solid #eee; padding-bottom: 8px;">Message</h3>
+        <div style="background-color: #f5f7fa; padding: 15px; border-radius: 4px; border-left: 3px solid #4a6baf;">
+          <p style="white-space: pre-line; margin: 0; color: #333; line-height: 1.5;">${
+            values.message
+          }</p>
+        </div>
+      </div>
+
+      <!-- Reply Button -->
+      <div style="text-align: center; margin-top: 30px;">
+        <a href="mailto:${
+          values.email
+        }" style="background-color: #4a6baf; color: white; text-decoration: none; padding: 12px 25px; border-radius: 4px; font-weight: bold; display: inline-block; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+          Reply to ${values.name.split(" ")[0] || "Sender"}
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div style="background-color: #2c3e50; color: #bdc3c7; text-align: center; padding: 15px; font-size: 12px;">
+    <p style="margin: 5px 0;">© ${new Date().getFullYear()} Eskaliotech. All rights reserved.</p>
+    <p style="margin: 5px 0;">
+      <a href="mailto:${
+        companyDetails.email
+      }" style="color: #bdc3c7; text-decoration: none;">Contact Support</a>
+    </p>
+  </div>
+</div>
+  `;
 
     // Construct the request payload
     var payload = {
       to: companyDetails.email,
       subject: values.subject,
-      body: emailBody,
+      html: emailBody,
       name: "Eskaliotech Solutions",
     };
 
@@ -58,7 +116,7 @@ const InquiryForm = () => {
       }
     } catch (err) {
       toast.error(err.message);
-    }finally{
+    } finally {
       setSpinner(false);
     }
   };
