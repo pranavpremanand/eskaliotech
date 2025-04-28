@@ -5,8 +5,10 @@ export const companyDetails = {
   logo: logoImg,
   phone: "+917077770975",
   email: "contactus@eskaliotech.com",
-  location:
-    "Office number 309, Ambadeep building- 3rd floor, Kg marg Connaugt Place, Delhi 110001, India",
+  location1:
+    "Malviya Nagar, Eldeco centre, Block A, Shivalik Colony, Malviya Nagar, Delhi, DL 110017",
+  location2:
+    "Salarpuria Symbiosis, Ground floor Bannerghatta Road Arekere Village, Begur Hobli, Bengaluru, Karnataka 560076",
   twitter: "https://x.com/ESKALIOTECH",
   linkedin: "https://www.linkedin.com/company/eskaliotech/",
   instagram: "https://www.instagram.com/eskaliotech?igsh=aWZsdnA1YzZnOXBx",

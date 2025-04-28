@@ -41,22 +41,22 @@ const ContactUs = () => {
         </div>
       </div>
 
-      <section className="wrapper py-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 lg:gap-5">
-          <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 flex flex-col gap-3">
-            <div data-aos="fade-up" className="flex items-center gap-3">
-              <img src={line} alt="line" className="w-[3rem]" />
-              <h6 className="font-medium text-secondary">Contact Us</h6>
-            </div>
-            <h2 data-aos="fade-up" className="heading-2 capitalize">
-              We are ready for your help
-            </h2>
-            <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
-              We’d love to hear from you! Whether you have a project in mind,
-              need expert guidance, or want to explore how our solutions can
-              benefit your business, we are just a message or phone call away.
-            </p>
+      <section className="wrapper py-10 space-y-6">
+        <div className="sm:col-span-2 md:col-span-3 lg:col-span-1 flex flex-col gap-3">
+          <div data-aos="fade-up" className="flex items-center gap-3">
+            <img src={line} alt="line" className="w-[3rem]" />
+            <h6 className="font-medium text-secondary">Contact Us</h6>
           </div>
+          <h2 data-aos="fade-up" className="heading-2 capitalize">
+            We are ready for your help
+          </h2>
+          <p data-aos="fade-up" className="max-w-[35rem] lg:max-w-max">
+            We’d love to hear from you! Whether you have a project in mind, need
+            expert guidance, or want to explore how our solutions can benefit
+            your business, we are just a message or phone call away.
+          </p>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-7 lg:gap-5">
           <div
             data-aos="fade-up"
             className="rounded-md relative bg-primary/5 group hover:bg-primary p-7 border-t-2 border-secondary flex flex-col"
@@ -99,7 +99,22 @@ const ContactUs = () => {
               Location
             </span>
             <span className="relative z-10 group-hover:text-white mt-2 capitalize">
-              {companyDetails.location}
+              {companyDetails.location1}
+            </span>
+          </div>
+          <div
+            data-aos="fade-up"
+            className="rounded-md relative bg-primary/5 group hover:bg-primary p-7 border-t-2 border-secondary flex flex-col"
+          >
+            <div className="text-secondary flex items-center justify-center group-hover:bg-white h-[4rem] w-[4rem] rounded-full bg-primary/5 text-4xl">
+              <PiMapPinAreaLight />
+            </div>
+            <PiMapPinAreaLight className="absolute group-hover:text-white/10 bottom-2 right-2 text-[6rem] lg:text-[10rem] text-gray-200" />
+            <span className="relative z-10 group-hover:text-white font-semibold mt-4">
+              Location
+            </span>
+            <span className="relative z-10 group-hover:text-white mt-2 capitalize">
+              {companyDetails.location2}
             </span>
           </div>
         </div>

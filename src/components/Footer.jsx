@@ -70,10 +70,13 @@ const Footer = () => {
                   alt="location"
                   className="w-[1.5rem] object-contain grayscale"
                 />
-                <span className="max-w-[15rem] capitalize text-wrap">
-                  <span className="font-medium">Location:</span>{" "}
-                  {companyDetails.location}
-                </span>
+                <div className="max-w-[15rem] capitalize text-wrap space-y-2">
+                  <span className="font-medium">Office Locations:</span>
+                  <ul className="list-disc space-y-2">
+                    <li>{companyDetails.location1}</li>
+                    <li>{companyDetails.location2}</li>
+                  </ul>
+                </div>
               </li>
             </ul>
             <div className="flex items-center gap-4">
