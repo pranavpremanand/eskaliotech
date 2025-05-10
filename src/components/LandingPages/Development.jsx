@@ -1,6 +1,7 @@
 import React from "react";
 import line from "../../assets/images/line.png";
-import developmentImg from "../../assets/images/landingpages/development-1.webp";
+import webDev from "../../assets/images/landingpages/webdev.webp";
+import appDev from "../../assets/images/landingpages/appdev.webp";
 
 const Development = ({ page }) => {
   return (
@@ -14,13 +15,13 @@ const Development = ({ page }) => {
             {page === "app-development" && "App Development"}
           </h6>
         </div>
-        <div className="grid md:grid-cols-[50%_40%] items-center gap-10 mt-4">
+        <div className="grid md:grid-cols-2 items-center gap-10 mt-4">
           <img
             loading="lazy"
             data-aos="fade-right"
-            src={developmentImg}
+            src={page === "web-development" ? webDev : appDev}
             alt="development"
-            className="md:h-[50vh] w-full object-cover rounded"
+            className="h-full aspect-video w-full object-cover rounded"
           />
           <div data-aos="fade-left" className="flex flex-col gap-4">
             <h2 className="text-[2rem] md:text-4xl leading-tight font-semibold">

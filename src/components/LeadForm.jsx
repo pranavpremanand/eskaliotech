@@ -20,6 +20,7 @@ const LeadForm = () => {
     defaultValues: {
       name: "",
       email: "",
+      phone: "",
       subject: "",
       message: "",
     },
@@ -50,6 +51,9 @@ const LeadForm = () => {
             }" style="color: #4a6baf; text-decoration: none;">${
       values.email
     }</a></p>
+    <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Phone:</strong> <a href="tel:${
+      values.phone
+    }" style="color: #4a6baf; text-decoration: none;">${values.phone}</a></p>
             <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Subject:</strong> ${
               values.subject
             }</p>
@@ -170,6 +174,24 @@ const LeadForm = () => {
                 })}
               />
               <small className="error-message">{errors.email?.message}</small>
+            </div>
+            <div className="flex flex-col">
+              <label htmlFor="" className="text-sm ml-1">
+                Phone
+              </label>
+              <input
+                type="tel"
+                className="border outline-none border-secondary rounded-sm p-2"
+                placeholder="Phone Number"
+                {...register("phone", {
+                  required: "Phone number is required",
+                  pattern: {
+                    value: /^[6-9]\d{9}$/i,
+                    message: "Entered phone number is invalid",
+                  },
+                })}
+              />
+              <small className="error-message">{errors.phone?.message}</small>
             </div>
             <div className="flex flex-col">
               <label htmlFor="" className="text-sm ml-1">

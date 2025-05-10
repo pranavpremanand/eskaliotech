@@ -56,6 +56,11 @@ const InquiryForm = () => {
         }" style="color: #4a6baf; text-decoration: none;">${
       values.email
     }</a></p>
+        <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Phone:</strong> <a href="tel:${
+          values.phone
+        }" style="color: #4a6baf; text-decoration: none;">${
+      values.phone
+    }</a></p>
         <p style="margin: 5px 0; color: #555;"><strong style="color: #2c3e50; width: 80px; display: inline-block;">Subject:</strong> ${
           values.subject
         }</p>
